@@ -17,7 +17,7 @@ console.log('Inside javascript file')
     weatherFrom.addEventListener("submit",(e)=>{
         e.preventDefault()
       
-        const url = 'http://localhost:3000/weather?address='+search.value
+        const url = '/weather?address='+search.value
         console.log(url)
        
         messageOne.textContent = "Loading ..."
